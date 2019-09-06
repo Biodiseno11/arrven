@@ -2695,6 +2695,39 @@ input, select, textarea {
 			width: 60%;
 		}
 
+        .spotlight70 {
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+	}
+        .spotlight70 .image {
+			-moz-order: 1;
+			-webkit-order: 1;
+			-ms-order: 1;
+			order: 1;
+			border-radius: 0;
+			width: 40%;
+		}
+        .spotlight70 .image img {
+				border-radius: 0;
+				width: 100%;
+			}
+
+		.spotlight70 .content {
+			padding: 2em 4em 0.1em 4em ;
+			-moz-order: 2;
+			-webkit-order: 2;
+			-ms-order: 2;
+			order: 2;
+			max-width: 48em;
+			width: 60%;
+		}
+
 		.spotlight:nth-child(2n) {
 			-moz-flex-direction: row-reverse;
 			-webkit-flex-direction: row-reverse;
@@ -2980,6 +3013,9 @@ input, select, textarea {
 		}
         .wrapper.style69 {
 			background-color: #202529;
+		}
+        .wrapper.style70 {
+			background-color: white;
 		}
 
 		.wrapper.style3 {
